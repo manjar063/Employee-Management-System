@@ -18,8 +18,9 @@ import java.util.Scanner;
 public class jdbc_pro16 {
 	private String driver="oracle.jdbc.OracleDriver";
 	private String db_url="jdbc:oracle:thin:@localhost:1521:orcl";
-	private String db_uname="oracleclass";
-	private String db_pwd="1234";
+	// Add your database credentials here
+	private String db_uname="YOUR_DB_USERNAME";
+	private String db_pwd="YOUR_DB_PASSWORD";
 	Scanner sc=new Scanner(System.in);
 	String sqlQuery="select *from "; 
 	String sqlQuery2="insert into employee values('151','Vidhata','Akansha',35000,'Jsr')";
